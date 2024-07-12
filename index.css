@@ -1,0 +1,1438 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    color: hsl(0, 0%, 100%);
+}
+
+main{
+    font-family: open sans;
+}
+
+.first-image{
+    height: 380px;
+    width: 550px;
+}
+
+.para{
+    font-family: raleway;
+    font-weight: bolder;
+}
+
+.para1{
+    font-family: raleway;
+}
+
+.main1{
+    background-image: url("./images/bg-curvy-desktop.svg");
+    background-size: 100% 110%;
+    height: 45vh;
+}
+
+.head{
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    height: 40px;
+    width: 120px;
+    margin-left: 48px;
+    margin-top: 32px;
+}
+
+.pin{
+    padding: 32px;
+}
+
+.sign{
+    color: hsl(0, 0%, 100%);
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    padding-right: 48px;
+}
+
+.main{
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+}
+
+.button{
+    background-color: hsl(198, 60%, 50%);
+    padding: 4px;
+    width: 200px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.four{
+    background-color: hsl(218, 28%, 13%);
+
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    justify-content: center;
+}
+
+.one{
+    text-align: center;
+}
+
+.box3{
+    margin-top: 90px;
+    padding-left: 50px;
+}
+
+.productive{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+    height: 480px;
+}
+
+.arrow{
+    display: inline;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+}
+
+.box{
+    background-color: hsl(218, 28%, 13%);
+    position: relative;
+    height: 300px;
+}
+
+.font{
+    font-size: 12px;
+}
+
+.box1{
+    background-color: hsl(219, 30%, 18%);
+    height: 220px;
+    width: 390px;
+    position: absolute;
+    top: 10.3%;
+    left: 4.5%;
+}
+
+.box11{
+    background-color: hsl(219, 30%, 18%);
+    height: 220px;
+    width: 390px;
+    position: absolute;
+    top: 10.3%;
+    left: 35.5%;
+}
+
+.box111{
+    background-color: hsl(219, 30%, 18%);
+    height: 220px;
+    width: 390px;
+    position: absolute;
+    top: 10.3%;
+    left: 66.5%;
+}
+
+.box2{
+    display: flex;
+    margin-left: 17px;
+}
+
+.size{
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+}
+
+.testimony{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+    font-family: open san;
+    font-weight: lighter;
+    
+}
+
+.quotes{
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 4%;
+    top: 4%;
+    
+}
+
+.access{
+    height: 50vh;
+    background: linear-gradient(
+        to bottom,
+        hsl(218, 28%, 13%) 0%,
+        hsl(218, 28%, 13%) 65%,
+        hsl(216, 53%, 9%) 65%,
+        hsl(216, 53%, 9%) 100%
+    );
+    display: flex;
+    justify-content: center;
+
+}
+
+.access-box{
+    background-color: hsl(219, 30%, 18%);
+    height: 210px;
+    width: 850px;
+    margin-top: 80px;
+    
+}
+
+.white{
+    background-color: #fff;
+    padding: 5px;
+    width: 500px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.start{
+    background-color: hsl(198, 60%, 50%);
+    padding: 5px;
+    width: 230px;
+    border-radius: 15px;
+    border: 0;
+    margin-left: 20px;
+}
+
+.lorem{
+    padding-left: 20px;
+}
+
+.locate{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.foot{
+    background-color: hsl(216, 53%, 9%);
+}
+
+.location{
+    height: 20px;
+}
+
+.social{
+    height: 30px;
+    width: 30px;
+}
+
+.icon1{
+    height: 35px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.para4{
+    font-size: 18px;
+    font-family: open san;
+}
+
+.phone{
+    padding-left: 80px;
+}
+
+.blog{
+    padding-left: 100px;
+}
+
+.terms{
+    padding-left: 70px;
+}
+
+.apps{
+    display: flex;
+    margin-left: 90px;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 375px){
+    
+    .icon{
+        height: 20px;
+        width: 70px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .pin1{
+        margin-left: 100px;
+    }
+
+    .pin{
+        padding-left: 1px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+
+    .sign{
+        color: hsl(0, 0%, 100%);
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        padding-right: 1px;
+    }
+    
+    .head{
+        background-color: hsl(217, 28%, 15%);
+        display: flex;
+        justify-content: left;
+        height: 50px;
+    }
+
+    main{
+        font-family: open sans;
+    }
+    
+    .first-image{
+        height: 270px;
+        width: 350px;
+    }
+    
+    .para{
+        font-family: raleway;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    
+    .para1{
+        font-family: raleway;
+        font-size: 10px;
+    }
+    
+    .main1{
+        background-image: url("./images/bg-curvy-mobile.svg");
+        background-size: 100% 110%;
+        height: 20vh;
+    }
+    
+    .main{
+        background-color: hsl(217, 28%, 15%);
+        text-align: center;
+    }
+    
+    .button{
+        background-color: hsl(198, 60%, 50%);
+        padding: 3px;
+        width: 200px;
+        border-radius: 15px;
+        border: 0;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .four{
+        background-color: hsl(218, 28%, 13%);
+    
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: center;
+        padding-top: 55px;
+    }
+
+    .productive{
+        background-color: hsl(218, 28%, 13%);
+        height: 550px;
+        display: grid;
+        grid-template-columns: 350px;
+        justify-content: center;
+    }
+
+    .box3 > h3{
+        display: inline;
+    }
+
+    .para2{
+        padding-top: 10px;
+    } 
+    
+    .box3{
+        margin-top: 90px;
+        padding-left: 0;
+    }
+    
+    .arrow{
+        display: inline;
+        color: hsl(176, 68%, 64%);
+        border-bottom: 1px solid hsl(176, 68%, 64%);
+        font-size: 10px;
+    }
+
+    .box{
+        background-color: hsl(218, 28%, 13%);
+        position: relative;
+        height: 650px;
+    }
+
+    .box1{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 6%;
+        left: 8%;
+    }
+    
+    .quotes{
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        left: 7.5%;
+        top: 4%;
+    }
+    
+    .box11{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 37%;
+        left: 8%;
+    }
+    
+    .box111{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 68%;
+        left: 8%;
+    }
+
+    .font{
+        font-size: 10px;
+    }
+    
+    .box2{
+        display: flex;
+    }
+    
+    .size{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    
+    .testimony{
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 13px;
+        
+    }
+    
+    .access{
+        height: 50vh;
+        background: linear-gradient(
+            to bottom,
+            hsl(218, 28%, 13%) 0%,
+            hsl(218, 28%, 13%) 60%,
+            hsl(216, 53%, 9%) 60%,
+            hsl(216, 53%, 9%) 100%
+        );
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .access-box{
+        background-color: hsl(219, 30%, 18%);
+        height: 230px;
+        width: 350px;
+        margin-top: 80px;
+        
+    }
+    
+    .white{
+        background-color: hsl(0, 0%, 100%);
+        padding: 2px;
+        margin-bottom: 15px;
+        width: 300px;
+        border-radius: 15px;
+        border: 0;
+        height: 30px;
+    }
+    
+    .start{
+        background-color: hsl(198, 60%, 50%);
+        padding: 2px;
+        width: 300px;
+        border-radius: 15px;
+        border: 0;
+        height: 30px;
+        margin-left: 0;
+    }
+    
+    .foot{
+        background-color: hsl(216, 53%, 9%);
+        height: 800px;
+    }
+
+    .locate{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .location{
+        height: 20px;
+        width: 13px;
+    }
+    
+    .loc{
+        padding-left: 30px;
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+
+    .lorem{
+        padding-left: 20px;
+        font-size: 13px;
+    }
+
+    .social{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .icon1{
+        height: 25px;
+        width: 80px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    
+    .para4{
+        font-size: 18px;
+        font-family: open san;
+    } 
+
+    .phone{
+        padding-left: 30px;
+        padding-bottom: 50px;
+        font-size: 13px;
+    }
+
+    .blog{
+        padding-left: 30px;
+        padding-bottom: 50px;
+        font-size: 13px;
+    }
+
+    .terms{
+        padding-left: 30px;
+        padding-bottom: 40px;
+        font-size: 13px;
+    }
+
+    .apps{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .last{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (min-width:376px) and (max-width:600px){
+    
+    .icon{
+        height: 20px;
+        width: 70px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .pin1{
+        margin-left: 100px;
+    }
+
+    .pin{
+        padding-left: 1px;
+        padding-top: 10px;
+        font-size: 10px;
+    }
+
+    .sign{
+        color: hsl(0, 0%, 100%);
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        padding-right: 1px;
+    }
+    
+    .head{
+        background-color: hsl(217, 28%, 15%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+
+    main{
+        font-family: open sans;
+    }
+    
+    .first-image{
+        height: 270px;
+        width: 350px;
+    }
+    
+    .para{
+        font-family: raleway;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    
+    .para1{
+        font-family: raleway;
+        font-size: 10px;
+    }
+    
+    .main1{
+        background-image: url("./images/bg-curvy-mobile.svg");
+        background-size: 100% 110%;
+        height: 20vh;
+    }
+    
+    .main{
+        background-color: hsl(217, 28%, 15%);
+        text-align: center;
+    }
+    
+    .button{
+        background-color: hsl(198, 60%, 50%);
+        padding: 3px;
+        width: 200px;
+        border-radius: 15px;
+        border: 0;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .four{
+        background-color: hsl(218, 28%, 13%);
+    
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: center;
+        padding-top: 55px;
+    }
+
+    .productive{
+        background-color: hsl(218, 28%, 13%);
+        height: 550px;
+        display: grid;
+        grid-template-columns: 350px;
+        justify-content: center;
+    }
+
+    .box3 > h3{
+        display: inline;
+    }
+
+    .para2{
+        padding-top: 10px;
+    } 
+    
+    .box3{
+        margin-top: 90px;
+        padding-left: 0;
+    }
+    
+    .arrow{
+        display: inline;
+        color: hsl(176, 68%, 64%);
+        border-bottom: 1px solid hsl(176, 68%, 64%);
+        font-size: 10px;
+    }
+
+    .box{
+        background-color: hsl(218, 28%, 13%);
+        position: relative;
+        height: 650px;
+    }
+
+    .box1{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 6%;
+        left: 8%;
+    }
+    
+    .quotes{
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        left: 7.5%;
+        top: 4%;
+    }
+    
+    .box11{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 37%;
+        left: 8%;
+    }
+    
+    .box111{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 68%;
+        left: 8%;
+    }
+
+    .font{
+        font-size: 10px;
+    }
+    
+    .box2{
+        display: flex;
+    }
+    
+    .size{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    
+    .testimony{
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 13px;
+        
+    }
+    
+    .access{
+        height: 50vh;
+        background: linear-gradient(
+            to bottom,
+            hsl(218, 28%, 13%) 0%,
+            hsl(218, 28%, 13%) 60%,
+            hsl(216, 53%, 9%) 60%,
+            hsl(216, 53%, 9%) 100%
+        );
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .access-box{
+        background-color: hsl(219, 30%, 18%);
+        height: 230px;
+        width: 350px;
+        margin-top: 80px;
+        
+    }
+    
+    .white{
+        background-color: hsl(0, 0%, 100%);
+        padding: 2px;
+        margin-bottom: 15px;
+        width: 300px;
+        border-radius: 15px;
+        border: 0;
+        height: 30px;
+    }
+    
+    .start{
+        background-color: hsl(198, 60%, 50%);
+        padding: 2px;
+        width: 300px;
+        border-radius: 15px;
+        border: 0;
+        height: 30px;
+        margin-left: 0;
+    }
+    
+    .foot{
+        background-color: hsl(216, 53%, 9%);
+        height: 900px;
+    }
+
+    .locate{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .location{
+        height: 20px;
+        width: 13px;
+    }
+    
+    .loc{
+        padding-left: 30px;
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+
+    .lorem{
+        padding-left: 20px;
+        font-size: 13px;
+    }
+
+    .social{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .icon1{
+        height: 25px;
+        width: 80px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    
+    .para4{
+        font-size: 18px;
+        font-family: open san;
+    } 
+
+    .phone{
+        padding-left: 30px;
+        padding-bottom: 50px;
+        font-size: 13px;
+    }
+
+    .blog{
+        padding-left: 30px;
+        padding-bottom: 50px;
+        font-size: 13px;
+    }
+
+    .terms{
+        padding-left: 30px;
+        padding-bottom: 40px;
+        font-size: 13px;
+    }
+
+    .apps{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .last{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media screen and (min-width:601px) and (max-width:1000px){
+
+    .icon{
+        height: 30px;
+        width: 90px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .pin1{
+        margin-left: 100px;
+    }
+
+    .pin{
+        padding-left: 1px;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+
+    .sign{
+        color: hsl(0, 0%, 100%);
+        display: flex;
+        justify-content: end;
+        padding-right: 1px;
+    }
+    
+    .head{
+        background-color: hsl(217, 28%, 15%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+
+    main{
+        font-family: open sans;
+    }
+    
+    .first-image{
+        height: 320px;
+        width: 400px;
+    }
+    
+    .para{
+        font-family: raleway;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    
+    .para1{
+        font-family: raleway;
+        font-size: 15px;
+    }
+    
+    .main1{
+        background-image: url("./images/bg-curvy-mobile.svg");
+        background-size: 100% 110%;
+        height: 20vh;
+    }
+    
+    .main{
+        background-color: hsl(217, 28%, 15%);
+        text-align: center;
+    }
+    
+    .button{
+        background-color: hsl(198, 60%, 50%);
+        padding: 5px;
+        width: 250px;
+        border-radius: 15px;
+        border: 0;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .four{
+        background-color: hsl(218, 28%, 13%);
+    
+        display: grid;
+        grid-template-columns: 300px;
+        justify-content: center;
+        padding-top: 55px;
+    }
+
+    .productive{
+        background-color: hsl(218, 28%, 13%);
+        height: 600px;
+        display: grid;
+        grid-template-columns: 350px;
+        justify-content: center;
+    }
+
+    .box3 > h3{
+        display: inline;
+    }
+
+    .para2{
+        padding-top: 10px;
+    } 
+    
+    .box3{
+        margin-top: 90px;
+        padding-left: 0;
+    }
+    
+    .arrow{
+        display: inline;
+        color: hsl(176, 68%, 64%);
+        border-bottom: 1px solid hsl(176, 68%, 64%);
+        font-size: 10px;
+    }
+
+    .box{
+        background-color: hsl(218, 28%, 13%);
+        position: relative;
+        height: 650px;
+    }
+
+    .box1{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 6%;
+        left: 29%;
+    }
+    
+    .quotes{
+        height: 18px;
+        width: 18px;
+        position: absolute;
+        left: 28.5%;
+        top: 4%;
+    }
+    
+    .box11{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 37%;
+        left: 29%;
+    }
+    
+    .box111{
+        background-color: hsl(219, 30%, 18%);
+        height: 180px;
+        width: 310px;
+        position: absolute;
+        top: 68%;
+        left: 29%;
+    }
+
+    .font{
+        font-size: 10px;
+    }
+    
+    .box2{
+        display: flex;
+    }
+    
+    .size{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+    }
+    
+    .testimony{
+        padding-top: 25px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        font-family: Raleway;
+        font-weight: 500;
+        font-size: 13px;
+        
+    }
+    
+    .access{
+        height: 50vh;
+        background: linear-gradient(
+            to bottom,
+            hsl(218, 28%, 13%) 0%,
+            hsl(218, 28%, 13%) 40%,
+            hsl(216, 53%, 9%) 40%,
+            hsl(216, 53%, 9%) 100%
+        );
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .access-box{
+        background-color: hsl(219, 30%, 18%);
+        height: 280px;
+        width: 450px;
+        margin-top: 80px;
+        
+    }
+    
+    .white{
+        background-color: hsl(0, 0%, 100%);
+        padding: 2px;
+        margin-bottom: 15px;
+        width: 300px;
+        border-radius: 15px;
+        border: 0;
+        height: 30px;
+    }
+    
+    .start{
+        background-color: hsl(198, 60%, 50%);
+        padding: 2px;
+        width: 300px;
+        border-radius: 15px;
+        border: 0;
+        height: 30px;
+        margin-left: 0;
+    }
+    
+    .foot{
+        background-color: hsl(216, 53%, 9%);
+        height: 900px;
+    }
+
+    .locate{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    
+    .location{
+        height: 25px;
+        width: 17px;
+    }
+    
+    .loc{
+        padding-left: 30px;
+        padding-bottom: 20px;
+        padding-top: 0;
+    }
+
+    .lorem{
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    .social{
+        height: 40px;
+        width: 40px;
+    }
+    
+    .icon1{
+        height: 30px;
+        width: 90px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    
+    .para4{
+        font-size: 18px;
+        font-family: open san;
+    } 
+
+    .phone{
+        padding-left: 30px;
+        padding-bottom: 50px;
+        font-size: 17px;
+    }
+
+    .blog{
+        padding-left: 30px;
+        padding-bottom: 50px;
+        font-size: 17px;
+    }
+
+    .terms{
+        padding-left: 30px;
+        padding-bottom: 40px;
+        font-size: 17px;
+    }
+
+    .apps{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .last{
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+@media screen and (min-width:1001px) and (max-width:1150px){
+
+    main{
+        font-family: open sans;
+    }
+    
+    .first-image{
+        height: 380px;
+        width: 550px;
+    }
+    
+    .para{
+        font-family: raleway;
+        font-weight: bolder;
+    }
+    
+    .para1{
+        font-family: raleway;
+    }
+    
+    .main1{
+        background-image: url("./images/bg-curvy-desktop.svg");
+        background-size: 100% 110%;
+        height: 23vh;
+    }
+    
+    .head{
+        background-color: hsl(217, 28%, 15%);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .icon{
+        height: 40px;
+        width: 120px;
+        margin-left: 48px;
+        margin-top: 32px;
+    }
+    
+    .pin{
+        padding: 32px;
+    }
+    
+    .sign{
+        color: hsl(0, 0%, 100%);
+        list-style-type: none;
+        display: flex;
+        justify-content: end;
+        padding-right: 48px;
+    }
+    
+    .main{
+        background-color: hsl(217, 28%, 15%);
+        text-align: center;
+    }
+    
+    .button{
+        background-color: hsl(198, 60%, 50%);
+        padding: 4px;
+        width: 200px;
+        border-radius: 15px;
+        border: 0;
+    }
+    
+    .four{
+        background-color: hsl(218, 28%, 13%);
+    
+        display: grid;
+        grid-template-columns: repeat(2, 500px);
+        justify-content: center;
+    }
+    
+    .one{
+        text-align: center;
+    }
+    
+    .box3{
+        margin-top: 90px;
+        padding-left: 50px;
+    }
+    
+    .productive{
+        background-color: hsl(218, 28%, 13%);
+        display: flex;
+        justify-content: center;
+        height: 480px;
+    }
+    
+    .arrow{
+        display: inline;
+        color: hsl(176, 68%, 64%);
+        border-bottom: 1px solid hsl(176, 68%, 64%);
+    }
+    
+    .box{
+        background-color: hsl(218, 28%, 13%);
+        position: relative;
+        height: 300px;
+    }
+    
+    .font{
+        font-size: 12px;
+    }
+    
+    .box1{
+        background-color: hsl(219, 30%, 18%);
+        height: 220px;
+        width: 320px;
+        position: absolute;
+        top: 10.3%;
+        left: 1%;
+    }
+    
+    .box11{
+        background-color: hsl(219, 30%, 18%);
+        height: 220px;
+        width: 320px;
+        position: absolute;
+        top: 10.3%;
+        left: 33%;
+    }
+    
+    .box111{
+        background-color: hsl(219, 30%, 18%);
+        height: 220px;
+        width: 320px;
+        position: absolute;
+        top: 10.3%;
+        left: 65%;
+    }
+    
+    .box2{
+        display: flex;
+        margin-left: 17px;
+    }
+    
+    .size{
+        height: 43px;
+        width: 43px;
+        border-radius: 50%;
+    }
+    
+    .testimony{
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        font-family: open san;
+        font-weight: lighter;
+        
+    }
+    
+    .quotes{
+        height: 25px;
+        width: 25px;
+        position: absolute;
+        left: 0.5%;
+        top: 4%;
+        
+    }
+    
+    .access{
+        height: 50vh;
+        background: linear-gradient(
+            to bottom,
+            hsl(218, 28%, 13%) 0%,
+            hsl(218, 28%, 13%) 65%,
+            hsl(216, 53%, 9%) 65%,
+            hsl(216, 53%, 9%) 100%
+        );
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .access-box{
+        background-color: hsl(219, 30%, 18%);
+        height: 210px;
+        width: 850px;
+        margin-top: 80px;
+        
+    }
+    
+    .white{
+        background-color: #fff;
+        padding: 5px;
+        width: 500px;
+        border-radius: 15px;
+        border: 0;
+    }
+    
+    .start{
+        background-color: hsl(198, 60%, 50%);
+        padding: 5px;
+        width: 230px;
+        border-radius: 15px;
+        border: 0;
+        margin-left: 20px;
+    }
+    
+    .lorem{
+        padding-left: 20px;
+    }
+    
+    .locate{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .last{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    
+    .foot{
+        background-color: hsl(216, 53%, 9%);
+    }
+    
+    .location{
+        height: 20px;
+    }
+    
+    .social{
+        height: 30px;
+        width: 30px;
+    }
+    
+    .icon1{
+        height: 35px;
+        width: 100px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    
+    .para4{
+        font-size: 18px;
+        font-family: open san;
+    }
+    
+    .phone{
+        padding-left: 80px;
+    }
+    
+    .blog{
+        padding-left: 100px;
+    }
+    
+    .terms{
+        padding-left: 70px;
+    }
+    
+    .apps{
+        display: flex;
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
